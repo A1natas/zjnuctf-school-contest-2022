@@ -1,0 +1,8 @@
+version: '3'
+services:
+  web:
+    container_name: Diana
+    image: php:5.6-apache
+    build: ./Diana
+    ports:
+      - "8069:80"
